@@ -1,0 +1,24 @@
+* {
+	box-sizing: border-box;
+}
+body{
+	margin:0;
+	padding:0;
+	font-size: 16px;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+}
+a{
+	text-decoration:none;
+}
+.wrap{
+	overflow: hidden;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}

@@ -1,0 +1,64 @@
+.relative{position: relative;}
+.static{position: static;}
+.absolute{position: absolute;}
+
+.clearfix{
+	&:before, &:after{
+		content: '';
+		display: block;
+		clear: both;
+	}
+}
+
+.bg{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.flex-row{
+	display: flex;
+	flex-direction: row;
+}
+.flex-col{
+	display: flex;
+	flex-direction: column;
+}
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/webfonts/Roboto-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/webfonts/Roboto-Bold.ttf') format('truetype');
+	font-weight: bold;
+}
+html,body{
+	margin: 0;
+	overflow-x: hidden;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+	font-family: 'Roboto', sans-serif;
+}
+.wrap{
+	display: block;
+	width: 100%;
+	position: relative;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	height: 100%;
+	background-image: url("../images/bg.jpg");
+}
+// .wrap:before {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+// 	right: 0;
+// 	width: 100%;
+// 	height: 100%;
+//     bottom: 0;
+//     content: "";
+//     background: rgb(70 157 218 / 40%);
+// }
+
