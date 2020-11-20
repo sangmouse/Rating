@@ -188,3 +188,37 @@ textarea {
   margin: 0;
   margin-bottom: 10px;
 }
+
+.table-responsive {
+  background: white;
+  display: block;
+  margin: 20px 0;
+}
+
+.table-responsive thead {
+  background: #212529;
+  color: #ececec;
+}
+
+.table-responsive thead th {
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+.table thead th {
+  vertical-align: middle;
+}
+
+.action a {
+  display: inline-block;
+  color: #0a222a;
+  /* border: 1px solid #ffeaea; */
+}
+
+.action a:last-child {
+  color: red;
+}
+
+.add-btn {
+  text-align: left;
+}
