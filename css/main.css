@@ -222,3 +222,11 @@ textarea {
 .add-btn {
   text-align: left;
 }
+
+.form-control:focus {
+  color: none;
+  background-color: none;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
