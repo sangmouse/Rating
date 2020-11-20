@@ -46,7 +46,19 @@
                         <input type="file" class="form-control-file" id="exampleFormControlFile1" required>
                       </div>
                     </div>
+
                     <div class="form-group">
+                     
+                      <label>Restaurant type:</label>
+                      <select class="form-control form-control-sm" name="type" id="type" required>
+                        <option>Fast food</option>
+                        <option>Grill food</option>
+                        <option>Sea food</option>
+                        
+                      </select>
+                    </div>
+
+                    <!-- <div class="form-group">
                      
                       <label>Restaurant type:</label>
                       <select class="form-control form-control-sm" required>
@@ -56,7 +68,7 @@
                         <option>Small select</option>
                         <option>Small select</option>
                       </select>
-                    </div>
+                    </div> -->
                     <div class="form-group">
                      
                       <label>Date of the visit:</label>
@@ -67,17 +79,7 @@
                       <label>Time of the visit:</label>
                       <input type="text" id="basicExample" required>
                     </div>
-                    <div class="form-group">
-                     
-                      <label>Restaurant type:</label>
-                      <select class="form-control form-control-sm" required>
-                        <option>Small select</option>
-                        <option>Small select</option>
-                        <option>Small select</option>
-                        <option>Small select</option>
-                        <option>Small select</option>
-                      </select>
-                    </div>
+                   
 
                     <div class="title rating text-center">Please rating the restaurant !</div>
 
@@ -86,21 +88,21 @@
                      <div class="row">
                        <div class="col-12">
                         <label class="container">Excellent
-                          <input type="radio" checked="checked" name="service-excellent">
+                          <input type="radio" checked="checked" name="service-radio">
                           <span class="checkmark"></span>
                         </label>
                         <label class="container">Good
-                          <input type="radio" name="service-good">
+                          <input type="radio" name="service-radio">
                           <span class="checkmark"></span>
                         </label>
                        </div>
                        <div class="col-12">
                         <label class="container">Okay
-                          <input type="radio" name="service-okay">
+                          <input type="radio" name="service-radio">
                           <span class="checkmark"></span>
                         </label>
                         <label class="container">Need to improve
-                          <input type="radio" name="service-improve">
+                          <input type="radio" name="service-radio">
                           <span class="checkmark"></span>
                         </label>
                        </div>
@@ -108,7 +110,7 @@
                      
                       
                     </div>
-                    <div class="form-group service cleanliness">
+                    <div class="form-group service">
                       <p class="name">Cleanliness</p>
                       <div class="row">
                         <div class="col-12">
@@ -135,26 +137,26 @@
                        
                        
                      </div>
-                     <div class="form-group service quality">
+                     <div class="form-group service">
                       <p class="name">Food Quality</p>
                       <div class="row">
                         <div class="col-12">
                           <label class="container">Excellent
-                            <input type="radio" checked="checked" name="radio">
+                            <input type="radio" checked="checked" name="quality-radio">
                             <span class="checkmark"></span>
                           </label>
                           <label class="container">Good
-                            <input type="radio" name="radio">
+                            <input type="radio" name="quality-radio">
                             <span class="checkmark"></span>
                           </label>
                         </div>
                         <div class="col-12">
                           <label class="container">Okay
-                            <input type="radio" name="radio">
+                            <input type="radio" name="quality-radio">
                             <span class="checkmark"></span>
                           </label>
                           <label class="container">Need to improve
-                            <input type="radio" name="radio">
+                            <input type="radio" name="quality-radio">
                             <span class="checkmark"></span>
                           </label>
                         </div>
@@ -166,13 +168,13 @@
                     <div class="form-group">
                      
                       <label>Note:</label>
-                      <textarea rows="4" placeholder="Typing your note..." maxlength="200">
+                      <textarea rows="4" placeholder="Typing your note..." maxlength="200" required>
                        
                         </textarea>
                     </div>
                     <div class="form-group">
                       <label>Name of reporter:</label>
-                      <input type="text" class="form-control" placeholder="Typing reporter's name...">
+                      <input type="text" class="form-control" placeholder="Typing reporter's name..." required>
                      
                     </div>
                     <div class="btn-form text-center">
